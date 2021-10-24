@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1080px;
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
+
+ /* ==============  Header Section Start =========== */
+
+.header-section{
+    background-color: turquoise;
+    overflow: hidden;
+}
+.header-logo{
+    width: 30%;
+    float:left;
+    
+}
+.header-logo img{
+    width: 150px;
+    padding: 8px;
+    margin-top:8px;
+    cursor: pointer;
+}
+.nav-bar{
+    width: 70%;
+    float:right;
+}
+.nav-bar ul{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-wrap: wrap;
+    float: right;
+}
+.nav-bar ul li{
+    list-style-type: none;
+    padding: 25px 8px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#000;
+    cursor: pointer;
+    border: 1px solid #000;
+    padding:5px 8px;
+}
+.nav-bar ul li a:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+
+ /* ==============  Header Section End =========== */
+
+ /* =============== Slider section Start =============*/
+.slide-section{
+     width: 100%;
+     height: 772px;
+     overflow: hidden;
+     background-color: turquoise;
+}
+.title {
+    margin:250px 0;
+    width: 50%;
+    float: left;
+}
+.title h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.title h4{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin:5px 0;
+}
+.title h6{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 12px 0;
+    word-spacing: 5px;
+}
+.button{
+    margin-top:20px;
+}
+.btn-one input{
+    padding: 5px 20px;
+    float:left;
+    border: 2px solid #7551EA;
+    font-size: 20px;
+    background: none;
+    margin-right: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px ;
+    font-weight: 600;
+}
+.btn-two input{
+    padding: 5px 20px;
+    float:left;
+    border: 2px solid #000;
+    font-size: 20px;
+    background: transparent;
+    color:#000;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-one input:hover {
+    background-color: #000;
+    color:#fff;
+    transition: 0.3s ease;
+    border: none;
+}
+.btn-two input:hover {
+    background-color: #000;
+    color:#fff;
+    transition: 0.3s ease;
+    border: none;
+}
+.image img{
+    width: 80%;
+    height: auto;
+    margin:45px 0;
+    width: 50%;
+    float: left;
+}
+
+/* =============== Slider section End =============*/
+
+/* =============== About section Start =============*/
+
+.about-section{
+    background-color: #ccc;
+    padding: 80px;
+}
+.about{
+    overflow: hidden;
+}
+.about-image{
+    width: 50%;
+    float:left;
+}
+.about-title{
+    margin-top: 60px;
+    width: 50%;
+    float: left;
+}
+.about-title h2{
+    font-size: 40px;
+    color:tomato;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.about-title p{
+    font-size: 16px;
+    color:#000;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.about-btn input{
+    margin-top:20px;
+    padding:5px 20px;
+}
+.about-btn input:hover{
+    background-color: turquoise;
+    color:#000;
+}
+
+/* =============== About section End =============*/
+
+/* =============== Service section Start =============*/
+.service-section{
+    background-color: #f7f1e3;
+    padding: 80px 0;
+    overflow: hidden;
+}
+.service-title{
+    padding: 0 0 80px 0;
+}
+.service-title h2 , p{
+    text-align: center;
+}
+.service-title h2{
+    font-weight: bold;
+    font-size: 40px;
+    color:tomato;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+} 
+.service-title p{
+    font-weight: 300;
+    font-size: 18px;
+    color:#000;
+    line-height: 25px;
+} 
+.service-body{
+    width: 24%;
+    height: 290px;
+    background-color: #ecf0f1;
+    /* border: 1px solid #fff; */
+    box-sizing: border-box;
+    padding:25px 15px;
+    float: left;
+    margin-left: 1%;
+    border-radius:10px;
+}
+.service-logo img{
+    width: 70px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 8px;
+}
+.service-details h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    color:tomato;
+    margin: 10px 0;
+}
+.service-details p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 25px;
+    color:#000;
+    /* padding:0 10px; */
+}
+.service-body:hover{
+   box-shadow: 1px 1px 10px #b2bec3;
+   transition: 0.2s ease;
+}
+
+/* =============== Service section End =============*/
+
+
+/* =============== Achieve section Start =============*/
+
+.achive-section{
+    padding:80px 0;
+    background-color: #f1f2f6;
+    overflow: hidden;
+    background: url("images/bg.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.one{
+    width: 24%;
+    height:200px;
+    background-color: #ced6e0;
+    padding:10px 0px;
+    text-align: center;
+    border-radius: 10px;
+    float:left;
+    margin-right: 1%;
+}
+.one img{
+    margin:8px 0;
+}
+.one h2{
+    margin:8px 0;
+}
+.one:hover{
+    box-shadow: 1px 1px 10px grey;
+    transition: 0.2s ease;
+}
+
+/* =============== Achieve section End =============*/
+
+
+/* =============== Contact section Start =============*/
+
+
+.contact-section{
+    padding: 90px 0;
+    height: 350px;
+    background-color: #000;
+}
+.left{
+    width: 30%;
+    float:left;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.icon{
+    float:left;
+    font-size: 25px;
+    color:#fff;
+    cursor: pointer;
+    margin:10px 0;
+}
+.icon p{
+    color:#fff;
+    display: inline;
+    font-size: 16px;
+    margin:5px 0 0 20px;
+    cursor: pointer;
+}
+.right{
+    width: 65%;
+    float:right;
+}
+.contact-form{
+    width: 70%;
+    margin: 0 auto;
+}
+.text-field input{
+    padding:8px 5px;
+    width:49%;
+    margin: 8px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.text-area{
+    width: 99%;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding:8px 5px;
+}
+.btn input{
+    padding: 8px 20px;
+    float:right;
+    margin-right:5px;
+    margin-top:10px;
+    color:#000;
+    background: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.btn input:hover{
+    background: tomato;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+/* =============== Contact section End =============*/
+
+.footer-section{
+    padding: 50px 0;
+    background-color: turquoise;
+}
+.footer-left{
+    float:left;
+}
+.footer-left a{
+    text-decoration: none;
+    color:green;
+}
+.footer-right i{
+    margin: 0;
+    float:right;
+    font-size: 20px;
+    padding: 4px 10px;
+}
+.footer-right i:hover{
+    color: tomato;
+    transition: 0.2s ease;
+    font-size: 35px;
+}
